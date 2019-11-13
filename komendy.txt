@@ -1,0 +1,6 @@
+autoprefixer-cli -o main.prefixed.css main.css 
+
+
+ var checker = require('nu-html-checker');
+ 
+var batch = checker.validate([ 'test.html', 'http://google.com' ]);
